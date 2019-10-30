@@ -1,0 +1,114 @@
+body {
+  background-color: #d9dde2;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #17183b;
+  font-weight: lighter;
+}
+
+h1 {
+  font-size: 50px;
+  letter-spacing: 3px;
+}
+
+h2 {
+  color: rgb(30, 30, 30);
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+h3 {
+  color: #00adb5;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+p {
+  text-align: center;
+  margin: 30px 30px;
+  line-height: 30px;
+}
+
+a {
+  color: #17183b;
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.9;
+  transition: ease 0.5s;
+}
+
+.card {
+  background-color: #f7f7f7;
+  text-align: center;
+  width: 40%;
+  padding: 30px 30px;
+  margin: 20px auto;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  border-radius: 4px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 150px;
+}
+
+.btn-grey {
+  background-color: rgba(220, 220, 220, 0.2);
+  padding: 15px 20px;
+  color: #17183b;
+  font-size: 15px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+
+.btn-grey:hover {
+  opacity: 0.9;
+  transition: ease 0.5s;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.icon-social {
+  border-radius: 4px;
+  font-size: 50px;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+
+
